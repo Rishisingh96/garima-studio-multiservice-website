@@ -32,12 +32,12 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Basic',
-        price: '25,000',
+        price: '10,000',
         features: ['4 Hours Coverage', '100 Edited Photos', 'Online Gallery', '1 Photographer']
       },
       {
         name: 'Standard',
-        price: '45,000',
+        price: '20,000',
         features: ['8 Hours Coverage', '300 Edited Photos', 'Online Gallery', '2 Photographers', 'Pre-Wedding Shoot', 'HD Video'],
         popular: true
       },
