@@ -14,7 +14,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/garima_studio_0282/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-background/70 transition-colors hover:text-accent"
