@@ -206,8 +206,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-foreground">Location</h3>
                     <p className="text-muted-foreground">
-                      123 Studio Lane, Creative District<br />
-                      City 400001
+                      Garima Studio, Kudraha, Basti<br />
+                      Uttar pradesh 400001
                     </p>
                   </div>
                 </div>
