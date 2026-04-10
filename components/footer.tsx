@@ -85,6 +85,18 @@ export function Footer() {
                   Album Services
                 </Link>
               </li>
+
+              <li>
+                <Link href="/services/album-services" className="text-background/70 transition-colors hover:text-accent">
+                  Album Services
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/services/album-services" className="text-background/70 transition-colors hover:text-accent">
+                  Album Services
+                </Link>
+              </li>
             </ul>
           </div>
 
