@@ -207,7 +207,7 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-foreground">Location</h3>
                     <p className="text-muted-foreground">
                       Garima Studio, Kudraha, Basti<br />
-                      Uttar pradesh 400001
+                      Uttar pradesh 272301
                     </p>
                   </div>
                 </div>
