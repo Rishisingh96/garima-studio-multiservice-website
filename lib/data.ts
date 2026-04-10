@@ -43,7 +43,7 @@ export const services: Service[] = [
       },
       {
         name: 'Premium',
-        price: '75,000',
+        price: '25,000',
         features: ['Full Day Coverage', '500+ Edited Photos', 'Online Gallery', '3 Photographers', 'Pre-Wedding Shoot', '4K Video', 'Drone Coverage', 'Same Day Edit', 'Premium Album']
       }
     ]
