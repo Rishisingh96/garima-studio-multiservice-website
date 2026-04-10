@@ -194,7 +194,7 @@ export default function ContactPage() {
                       href="mailto:garimastudiodev@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      garimastudiodev@gmail.com
+                      garima.studio.dev@gmail.com
                     </a>
                   </div>
                 </div>

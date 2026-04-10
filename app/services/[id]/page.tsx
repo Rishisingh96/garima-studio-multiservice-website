@@ -41,7 +41,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
     notFound()
   }
 
-  const phoneNumber = '919876543210'
+  const phoneNumber = '919838630282'
   const whatsappMessage = `Hello! I'm interested in your ${service.title} service.`
 
   return (
