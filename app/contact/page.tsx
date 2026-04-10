@@ -50,7 +50,7 @@ export default function ContactPage() {
     setIsSubmitted(true)
   }
 
-  const phoneNumber = '919876543210'
+  const phoneNumber = '919838630282'
 
   return (
     <div className="pt-16">
