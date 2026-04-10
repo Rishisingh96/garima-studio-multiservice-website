@@ -50,7 +50,7 @@ export default function ContactPage() {
     setIsSubmitted(true)
   }
 
-  const phoneNumber = '919838630282'
+  const phoneNumber = '919876543210'
 
   return (
     <div className="pt-16">
@@ -179,7 +179,7 @@ export default function ContactPage() {
                       href="tel:+919876543210"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +91 98765 43210
+                      +91 9838630282
                     </a>
                   </div>
                 </div>
@@ -194,7 +194,7 @@ export default function ContactPage() {
                       href="mailto:hello@garimastudio.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      hello@garimastudio.com
+                      garimastudiodev@gmail.com
                     </a>
                   </div>
                 </div>
