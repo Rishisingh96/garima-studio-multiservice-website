@@ -119,15 +119,16 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                     {pkg.name}
                   </CardTitle>
                   <div className="mt-4">
-                    {/* <span className="text-4xl font-bold text-foreground">
-                      &#8377;{pkg.price}
-                    </span> */}
-
                     <span className="text-4xl font-bold text-foreground">
+                      {/* &#8377;{pkg.price} */}
+                      Call for Price 📞
+                    </span>
+
+                    {/* <span className="text-4xl font-bold text-foreground">
                       {pkg.price.toLowerCase().includes("call")
                         ? "Call for Price"
                         : `₹${pkg.price}`}
-                    </span>
+                    </span> */}
                   </div>
                 </CardHeader>
                 <CardContent>
