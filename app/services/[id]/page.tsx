@@ -1,48 +1,48 @@
-import { notFound } from 'next/navigation'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Check, Phone, MessageCircle, ArrowLeft } from 'lucide-react'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
-import { services } from '@/lib/data'
+import { notFound } from "next/navigation";
+import Image from "next/image";
+import Link from "next/link";
+import { Check, Phone, MessageCircle, ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { services } from "@/lib/data";
 
 interface PageProps {
-  params: Promise<{ id: string }>
+  params: Promise<{ id: string }>;
 }
 
 export async function generateStaticParams() {
   return services.map((service) => ({
     id: service.id,
-  }))
+  }));
 }
 
 export async function generateMetadata({ params }: PageProps) {
-  const { id } = await params
-  const service = services.find((s) => s.id === id)
-  
+  const { id } = await params;
+  const service = services.find((s) => s.id === id);
+
   if (!service) {
     return {
-      title: 'Service Not Found | GarimaStudio',
-    }
+      title: "Service Not Found | GarimaStudio",
+    };
   }
 
   return {
     title: `${service.title} | GarimaStudio Multiservice`,
     description: service.description,
-  }
+  };
 }
 
 export default async function ServiceDetailPage({ params }: PageProps) {
-  const { id } = await params
-  const service = services.find((s) => s.id === id)
+  const { id } = await params;
+  const service = services.find((s) => s.id === id);
 
   if (!service) {
-    notFound()
+    notFound();
   }
 
-  const phoneNumber = '919838630282'
-  const whatsappMessage = `Hello! I'm interested in your ${service.title} service.`
+  const phoneNumber = "919838630282";
+  const whatsappMessage = `Hello! I'm interested in your ${service.title} service.`;
 
   return (
     <div className="pt-16">
@@ -104,7 +104,9 @@ export default async function ServiceDetailPage({ params }: PageProps) {
               <Card
                 key={pkg.name}
                 className={`relative overflow-hidden ${
-                  pkg.popular ? 'border-primary shadow-lg ring-2 ring-primary' : ''
+                  pkg.popular
+                    ? "border-primary shadow-lg ring-2 ring-primary"
+                    : ""
                 }`}
               >
                 {pkg.popular && (
@@ -113,10 +115,18 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                   </div>
                 )}
                 <CardHeader className="text-center pb-4">
-                  <CardTitle className="font-sans text-xl">{pkg.name}</CardTitle>
+                  <CardTitle className="font-sans text-xl">
+                    {pkg.name}
+                  </CardTitle>
                   <div className="mt-4">
-                    <span className="text-4xl font-bold text-foreground">
+                    {/* <span className="text-4xl font-bold text-foreground">
                       &#8377;{pkg.price}
+                    </span> */}
+
+                    <span className="text-4xl font-bold text-foreground">
+                      {pkg.price.toLowerCase().includes("call")
+                        ? "Call for Price"
+                        : `₹${pkg.price}`}
                     </span>
                   </div>
                 </CardHeader>
@@ -134,7 +144,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                   <Button
                     asChild
                     className="w-full mt-6"
-                    variant={pkg.popular ? 'default' : 'outline'}
+                    variant={pkg.popular ? "default" : "outline"}
                   >
                     <Link href="/contact">Book Now</Link>
                   </Button>
@@ -152,7 +162,8 @@ export default async function ServiceDetailPage({ params }: PageProps) {
             Ready to Book?
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Get in touch with us today to discuss your requirements and book your session.
+            Get in touch with us today to discuss your requirements and book
+            your session.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Button asChild size="lg">
@@ -175,5 +186,5 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         </div>
       </section>
     </div>
-  )
+  );
 }

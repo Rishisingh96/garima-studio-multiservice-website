@@ -32,18 +32,18 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Basic',
-        price: '10,000',
+        price: 'call for price',
         features: ['4 Hours Coverage', '100 Edited Photos', 'Online Gallery', '1 Photographer']
       },
       {
         name: 'Standard',
-        price: '20,000',
+        price: 'call for price',
         features: ['8 Hours Coverage', '300 Edited Photos', 'Online Gallery', '2 Photographers', 'Pre-Wedding Shoot', 'HD Video'],
         popular: true
       },
       {
         name: 'Premium',
-        price: '25,000',
+        price: 'call for price',
         features: ['Full Day Coverage', '500+ Edited Photos', 'Online Gallery', '3 Photographers', 'Pre-Wedding Shoot', '4K Video', 'Drone Coverage', 'Same Day Edit', 'Premium Album']
       }
     ]
@@ -57,18 +57,18 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Basic',
-        price: '5,000',
+        price: 'call for price',
         features: ['1 Hour Session', '20 Edited Photos', 'Online Gallery', '1 Location']
       },
       {
         name: 'Standard',
-        price: '10,000',
+        price: 'call for price',
         features: ['2 Hour Session', '50 Edited Photos', 'Online Gallery', '2 Locations', 'Outfit Changes'],
         popular: true
       },
       {
         name: 'Premium',
-        price: '18,000',
+        price: 'call for price',
         features: ['4 Hour Session', '100 Edited Photos', 'Online Gallery', 'Multiple Locations', 'Unlimited Outfits', 'Professional Retouching', 'Printed Photos']
       }
     ]
@@ -82,18 +82,18 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Basic',
-        price: '8,000',
+        price: 'call for price',
         features: ['3 Hours Coverage', '75 Edited Photos', 'Online Gallery', '1 Photographer']
       },
       {
         name: 'Standard',
-        price: '15,000',
+        price: 'call for price',
         features: ['5 Hours Coverage', '150 Edited Photos', 'Online Gallery', '2 Photographers', 'Video Highlights'],
         popular: true
       },
       {
         name: 'Premium',
-        price: '25,000',
+        price: 'call for price',
         features: ['Full Event Coverage', '300+ Edited Photos', 'Online Gallery', '2 Photographers', 'Full Video', 'Drone Coverage', 'Same Day Edit']
       }
     ]
@@ -107,18 +107,18 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Basic',
-        price: '3,000',
+        price: 'call for price',
         features: ['4 Hours Service', 'Decorated Vehicle', 'Professional Driver', 'Local Travel']
       },
       {
         name: 'Standard',
-        price: '5,500',
+        price: 'call for price',
         features: ['8 Hours Service', 'Premium Decoration', 'Professional Driver', 'Extended Travel', 'Refreshments'],
         popular: true
       },
       {
         name: 'Premium',
-        price: '10,000',
+        price: 'call for price',
         features: ['Full Day Service', 'Luxury Decoration', 'Professional Driver', 'Unlimited Travel', 'Premium Refreshments', 'Multiple Vehicles', 'Red Carpet Setup']
       }
     ]
@@ -132,18 +132,18 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Basic',
-        price: '4,000',
+        price: 'call for price',
         features: ['20 Pages', '8x10 Size', 'Standard Cover', '30 Photos', 'Basic Layout']
       },
       {
         name: 'Standard',
-        price: '8,000',
+        price: 'call for price',
         features: ['40 Pages', '12x12 Size', 'Leather Cover', '60 Photos', 'Custom Layout', 'Photo Box'],
         popular: true
       },
       {
         name: 'Premium',
-        price: '15,000',
+        price: 'call for price',
         features: ['60 Pages', '14x14 Size', 'Premium Leather', '100+ Photos', 'Designer Layout', 'Velvet Box', 'Extra Copies', 'Digital Album']
       }
     ]
@@ -157,18 +157,18 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Basic',
-        price: '1,500',
+        price: 'call for price',
         features: ['1 Design', '2 Revisions', 'Print Ready Files', 'Standard Templates']
       },
       {
         name: 'Standard',
-        price: '3,500',
+        price: 'call for price',
         features: ['3 Designs', '5 Revisions', 'Print Ready Files', 'Custom Design', 'Social Media Versions'],
         popular: true
       },
       {
         name: 'Premium',
-        price: '7,000',
+        price: 'call for price',
         features: ['Unlimited Designs', 'Unlimited Revisions', 'Print Ready Files', 'Fully Custom', 'All Formats', 'Printing Included', 'Rush Delivery']
       }
     ]
